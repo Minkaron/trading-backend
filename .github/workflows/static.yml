@@ -36,6 +36,7 @@ jobs:
           project_id: 'ultimate-karma-287718'
           service_account: 'korvara-inventory-and-market-p@ultimate-karma-287718.iam.gserviceaccount.com'
           workload_identity_provider: 'projects/523919040020/locations/global/workloadIdentityPools/github/providers/trading-backend'
+          export_environment_variables: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

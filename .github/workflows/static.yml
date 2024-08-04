@@ -34,7 +34,7 @@ jobs:
       - uses: 'google-github-actions/auth@v2'
         with:
           project_id: 'ultimate-karma-287718'
-          workload_identity_provider: 'projects/523919040020/locations/global/workloadIdentityPools/trading-backend'
+          workload_identity_provider: 'https://iam.googleapis.com/projects/523919040020/locations/global/workloadIdentityPools/github/providers/trading-backend'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
